@@ -4,3 +4,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
+
+.grid-container{
+  display: grid; 
+    
+}
+
+@font-face {
+    font-family: 'Space Momo';
+    src: url(/storage/font/spaceMomo/SpaceMono-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Momo Bold';
+    src: url(/storage/font/spaceMomo/SpaceMono-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+h4{
+    font-family: 'Space Momo Bold';
+}
+
+p{
+    font-family: 'Space Momo';
+}
+
+.title1{
+    color: var(--color-primary);
+    border: solid;
+    border-radius: 16px;
+    
+}
+.title2{
+    color: var(--color-primary);
+    border: solid;
+    border-radius: 16px;
+}
+.title3{
+    color: var(--color-primary);
+    border: solid;
+    border-radius: 16px;
+}
+.title4{
+    color: var(--color-primary);
+    border: solid;
+    border-radius: 16px;
+}
+.title5{
+    color: var(--color-primary);
+    border: solid;
+    border-radius: 16px;
+}
