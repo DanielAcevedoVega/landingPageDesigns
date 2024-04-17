@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.header h1{
+    font-family: "Avenir-Heavy";
+}
+.header p{
+    font-family: "Avenir-Roman";
+}
+.header a{
+    width: 118px;
+    height: 39px;
+    font-family: "Avenir-Roman";
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 13px;
+    background: var(--color-1);
+    color: var(--color-background);
+
+}
+.header__information {
+}
