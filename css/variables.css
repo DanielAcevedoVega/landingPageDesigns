@@ -3,4 +3,25 @@
     --color-font-primary: #ffffff;
 }
 
+@font-face {
+    font-family: 'Space-Momo-Regular';
+    src: url(../storage/font/spaceMomo/SpaceMono-Regular.ttf);
+    
+}
+
+@font-face {
+    font-family: 'Space-Momo-Bold';
+    src: url(../storage/font/spaceMomo/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Bitter-ExtraBold';
+    src: url(../storage/font/bitter/Bitter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Bitter-Bold';
+    src: url(../storage/font/bitter/Bitter-Bold.ttf);
+}
+
 
