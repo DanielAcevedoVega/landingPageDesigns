@@ -39,6 +39,16 @@
 .header__information {  
     text-align: center;
 }
-
-
-
+.container {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container img{
+    width: 48vh;
+    height: 48vh;
+}
