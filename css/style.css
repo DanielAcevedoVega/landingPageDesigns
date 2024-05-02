@@ -1,13 +1,26 @@
 @import url(variables.css);
 *{
-    padding: 0;
+    padding: 15px;
     margin: 0;
     box-sizing: border-box;
     font-family: "Avenir-Roman";
 }
 .header__title {
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+.header__title h1{
+    font-family: "Avenir-Heavy";
+    font-size: 90px;
 }
 .section__content {
+    background: pink;
+    display: flex;
+    flex-direction: row;
 }
 .content__article {
+    background: greenyellow;
+    display: flex;
+    flex-direction: column;
 }
