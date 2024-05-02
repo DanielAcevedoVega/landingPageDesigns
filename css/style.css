@@ -3,12 +3,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Avenir-Roman";
 }
 .section__image {
+    background: red;
 }
 .section__content {
+    background: blue;
 }
 .content__primary {
+    background: pink;
 }
 .content__secundary {
+    background: greenyellow;
 }
