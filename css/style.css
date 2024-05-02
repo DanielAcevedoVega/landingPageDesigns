@@ -7,20 +7,20 @@
     font-family: "Avenir-Roman";
 }
 .section__principal {
-    background: red;
+    /* background: red; */
     display: flex;
     justify-content: space-between;
 }
 .principal__titulo {
-    background: blueviolet;
+    /* background: blueviolet; */
     
 }
 .principal__titulo h1{
     font-family: "Avenir-Heavy";
-    font-size: 80px;
+    font-size: 100px;
 }
 .principal__texto{
-    background: chartreuse;
+    /* background: chartreuse; */
     display: flex;
     flex-direction: column;
 }
@@ -28,6 +28,22 @@
     font-size: 20px;
     opacity: .8;
 }
+.principal__texto a{
+    text-decoration: none;
+    color: var(--color-1);
+    background: var(--color-prymary);
+    width: 125px;
+    height: 38px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
 .section__secundario {
-    background: cadetblue;
+    /* background: cadetblue; */
+    margin-top: 80px;
+}
+.section__secundario img{
+    width: 100%;
 }
