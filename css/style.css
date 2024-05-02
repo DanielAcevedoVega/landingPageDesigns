@@ -1,7 +1,33 @@
 @import url(variables.css);
 *{
-    padding: 0;
+    padding: 15px;
     margin: 0;
     box-sizing: border-box;
     color: var(--color-prymary);
+    font-family: "Avenir-Roman";
+}
+.section__principal {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+.principal__titulo {
+    background: blueviolet;
+    
+}
+.principal__titulo h1{
+    font-family: "Avenir-Heavy";
+    font-size: 80px;
+}
+.principal__texto{
+    background: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+.principal__texto p{
+    font-size: 20px;
+    opacity: .8;
+}
+.section__secundario {
+    background: cadetblue;
 }
