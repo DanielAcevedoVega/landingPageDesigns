@@ -1,19 +1,57 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 0;
+    margin-top: 0;
     box-sizing: border-box;
     font-family: "Avenir-Roman";
 }
-.section__image {
-    background: red;
-}
 .section__content {
-    background: blue;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.section__content img{
+    position: relative;
+    left: -8px;
+    top: 8px;
+}
+.content__div{
+    /* background: blue; */
+    margin-right: 480px;
 }
 .content__primary {
-    background: pink;
+    /* background: pink; */
+}
+.content__primary h1{
+    font-family: "Avenir-Heavy";
+    font-size: 70px;
+}
+.content__primary p{
+    font-size: 28px;
+    opacity: .8;
+}
+.content__primary a{
+    text-decoration: none;
+    color: var(--color-1);
+    background: var(--color-prymary);
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content__secundary {
-    background: greenyellow;
+    /* background: greenyellow; */
+    margin-top: 80px;
+}
+.content__secundary h2{
+    opacity: .55;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.content__secundary p{
+    font-size: 20px;
+    opacity: .8;
 }
