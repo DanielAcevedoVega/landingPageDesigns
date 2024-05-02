@@ -1,6 +1,73 @@
 @import url(variables.css);
 *{
-    padding: 0;
+    padding: 15px 15px;
     margin: 0;
     box-sizing: border-box;
+    color: var(--color-prymary);
+}
+.section__principal {
+    /* background: red; */
+    display: flex;
+}
+.principal__article {
+    /* background: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.principal__article:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+} 
+.principal__article:nth-child(3){
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+} 
+.article__content{
+    /* background: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
+    width: 500px;
+}
+.article__content h1{
+    font-family: "Avenir-Heavy";
+    font-size: 60px;
+}
+.article__content p,
+.article__content a{
+    font-family: "Avenir-Roman";
+}
+.article__content p{
+    font-size: 30px;
+    opacity: .8;
+}
+.article__content a{
+    text-decoration: none;
+    color: var(--color-1);
+    background: var(--color-prymary);
+    height: 40px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.section__secundario {
+    /* background: pink; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.secundario__article {
+    /* background: plum; */
+}
+.secundario__article h2{
+    font-size: 40px;
+    opacity: 0.25;
 }
