@@ -6,7 +6,6 @@
     font-family: "Avenir-Roman";
 }
 .header__title {
-    background: red;
     display: flex;
     flex-direction: row;
 }
@@ -15,12 +14,20 @@
     font-size: 90px;
 }
 .section__content {
-    background: pink;
     display: flex;
     flex-direction: row;
 }
 .content__article {
-    background: greenyellow;
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+.content__article h3{
+    font-family: "Avenir-Heavy";
+    opacity: .55;
+    font-size: 40px;
+}
+.content__article p{
+    opacity: .8;
+    font-size: 33.2px;
 }
