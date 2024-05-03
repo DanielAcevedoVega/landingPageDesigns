@@ -15,17 +15,14 @@ html, body{
     height: 100%;
 }
 .main__section {
-    background: blue;
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 .section__image {
-    background: green;
     width: 50%;
 }
 .section__image img{
-    background: purple;
     height: 100%;
     width: 80%;
     padding-top: 60px;
@@ -33,15 +30,40 @@ html, body{
     
 }
 .section__content {
-    background: pink;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    
+}
+.section__content h1,
+.section__content p{
+    width: 60%;
+    margin-left: 50px;
 }
 .section__content h1{
     font-family: "WorkSans-Bold";
-    
+    font-size: 95px;
+    margin-top: 80px;
+}
+.section__content p{
+    font-family: "WorkSans-Light";
+    margin-top: 30px;
+    font-size: 27px;
 }
 .content__button {
+    background: var(--color-3);
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 22%;
+    height: 75px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__button a{
+    text-decoration: none;
+    color: var(--color-2);
+    font-family: "WorkSans-Medium";
+    font-size: 30px;
 }
