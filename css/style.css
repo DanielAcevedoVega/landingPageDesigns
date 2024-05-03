@@ -7,21 +7,45 @@
 .header{
     background: darkkhaki;
     display: flex;
+    flex-direction: row;
 }
 .section__header {
     background: red;
+    width: 50%;
 }
 .article__circle {
     background: blue;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article__circle img{
+    width: 100px;
+    height: 100px;
 }
 .title__content {
     background: greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+.title__content h1{
+    font-family: "PlayfairDisplay-Bold";
+    color: var(--color-title);
+    font-size: 60px;
+}
+.title__content p{
+    font-family: "WorkSans-Regular";
+    color: var(--color-2);
+    font-size: 30px;
 }
 .content__button {
     background: pink;
 }
 .section__product {
     background: yellow;
+    width: 50%;
 }
 .section__list {
     background: purple;
