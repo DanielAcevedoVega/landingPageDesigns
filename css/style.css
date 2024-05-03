@@ -5,37 +5,33 @@
     box-sizing: border-box;
 }
 .header{
-    background: darkkhaki;
     display: flex;
     flex-direction: row;
 }
 .section__header {
-    background: red;
     width: 50%;
     
 }
 .article__circle {
-    background: blue;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .article__circle img{
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
 }
 .title__content {
-    background: greenyellow;
-    margin-top: 70px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
 }
 .title__content h1{
     font-family: "PlayfairDisplay-Bold";
     color: var(--color-title);
-    font-size: 60px;
+    font-size: 82px;
 }
 .title__content p{
     font-family: "WorkSans-Regular";
@@ -43,15 +39,15 @@
     font-size: 31px;
 }
 .content__button {
-    background: pink;
+    margin-top: 28px;
     display: flex;
     gap: 35px;
 }
 .button:nth-child(1){
     background: var(--color-title);
     border-radius: 15px;
-    width: 180px;
-    height: 60px;
+    width: 240px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,15 +55,15 @@
 .button:nth-child(2){
     border: 1px solid var(--color-2);
     border-radius: 15px;
-    width: 220px;
-    height: 60px;
+    width: 280px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .button a{
     font-family: "WorkSans-Medium";
-    font-size: 20px;
+    font-size: 25px;
 }
 .button:nth-child(1) a{
     text-decoration: none;
@@ -78,16 +74,24 @@
     color: var(--color-2);
 }
 .section__product {
-    background: yellow;
     width: 50%;
 }
 .section__product img{
     width: 100%;
 }
 .section__list {
-    background: purple;
+    border: 1px solid var(--color-4);
+    border-radius: 25px;
+    display: flex;
+    width: 46.2%;
+    position: relative;
+    top: -200px;
+    left: 42px;
 }
 .list__content {
-    background: cadetblue;
+    
 }
-
+.list__content p{
+    font-family: "WorkSans-Regular";
+    font-size: 20px;
+}
