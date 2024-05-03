@@ -3,15 +3,45 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--color-1);
 }
+html, body{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+  }
 .main {
     background: var(--color-background);
+    height: 100%;
 }
 .main__section {
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
 }
 .section__image {
+    background: green;
+    width: 50%;
+}
+.section__image img{
+    background: purple;
+    height: 100%;
+    width: 80%;
+    padding-top: 60px;
+    display: flex;
+    
 }
 .section__content {
+    background: pink;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section__content h1{
+    font-family: "WorkSans-Bold";
+    
 }
 .content__button {
 }
