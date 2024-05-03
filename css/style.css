@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 .main {
+    background: var(--color-background);
 }
 .main__section {
 }
