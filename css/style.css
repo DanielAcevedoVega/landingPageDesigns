@@ -12,6 +12,7 @@
 .section__header {
     background: red;
     width: 50%;
+    
 }
 .article__circle {
     background: blue;
@@ -27,6 +28,7 @@
 }
 .title__content {
     background: greenyellow;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
 }
@@ -38,14 +40,49 @@
 .title__content p{
     font-family: "WorkSans-Regular";
     color: var(--color-2);
-    font-size: 30px;
+    font-size: 31px;
 }
 .content__button {
     background: pink;
+    display: flex;
+    gap: 35px;
+}
+.button:nth-child(1){
+    background: var(--color-title);
+    border-radius: 15px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:nth-child(2){
+    border: 1px solid var(--color-2);
+    border-radius: 15px;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    font-family: "WorkSans-Medium";
+    font-size: 20px;
+}
+.button:nth-child(1) a{
+    text-decoration: none;
+    color: var(--color-3);
+}
+.button:nth-child(2) a{
+    text-decoration: none;
+    color: var(--color-2);
 }
 .section__product {
     background: yellow;
     width: 50%;
+}
+.section__product img{
+    width: 100%;
 }
 .section__list {
     background: purple;
