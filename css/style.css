@@ -3,4 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--color-prymary);
+    font-family: "Avenir-Roman";
+}
+.header__title {
+}
+.section__content {
+}
+.content__article {
+}
+.article__description {
 }
