@@ -7,10 +7,60 @@
     font-family: "Avenir-Roman";
 }
 .header__title {
+    background: red;
+    padding: 35px;
+    width: 60%;
+}
+.header__title h1{
+    font-family: "Avenir-Heavy";
+    font-size: 92px;
 }
 .section__content {
+    background: green;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
 }
 .content__article {
+    background: gray;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.content__article h2{
+    opacity: 0.35;
+    font-family: "Avenir-Heavy";
+    font-size: 50px;
+}
+.content__article p{
+    opacity: .8;
+    font-size: 25px;
+}
+.content__article img{
+    position: relative;
 }
 .article__description {
+    background: linear-gradient(#0000001f, #00000079);
+    position: absolute;
+    width: 23.1%;
+    height: 17%;
+    top: 114dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+    box-shadow: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+.article__description h4{
+    font-size:30px;
+}
+.article__description span{
+    background: yellow;
+    width: 80%;
+    font-size: 20px;
 }
