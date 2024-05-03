@@ -6,6 +6,7 @@
 }
 .header{
     background: darkkhaki;
+    display: flex;
 }
 .section__header {
     background: red;
