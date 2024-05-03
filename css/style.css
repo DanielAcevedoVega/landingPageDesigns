@@ -1,6 +1,31 @@
 @import url(variables.css);
 *{
-    padding: 0;
+    padding: 15px;
     margin: 0;
     box-sizing: border-box;
 }
+.header{
+    background: darkkhaki;
+}
+.section__header {
+    background: red;
+}
+.article__circle {
+    background: blue;
+}
+.title__content {
+    background: greenyellow;
+}
+.content__button {
+    background: pink;
+}
+.section__product {
+    background: yellow;
+}
+.section__list {
+    background: purple;
+}
+.list__content {
+    background: cadetblue;
+}
+
